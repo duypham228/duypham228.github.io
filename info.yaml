@@ -5,9 +5,11 @@
     
     commands: &commands # if you dont know what the & means, see https://blog.daemonl.com/2016/02/yaml.html
         run: parcel index.html
+        (setup): ruby setup.rb
         run_ruby: !language/ruby |
             puts 'this is just a default value'
             puts 'replace this with your own ruby code'
+    
     
     paths: &paths
         root: ./
