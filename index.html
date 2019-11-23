@@ -2,15 +2,14 @@
  <html>
         <head>
             <title>Duy Pham</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <style type = "text/css">
                 * {
                     margin: 0;
                     padding: 0;
                 }
 
-                body {
-                    font-family: 'Times New Roman', Times, serif;
-                }
+
             
                 .background-wrap {
                     position: fixed;
@@ -20,6 +19,7 @@
                     overflow: hidden;
                     top: 0;
                     left: 0;
+                    align-self: stretch;
                 }
             #video-bg-elem {
                 position: absolute;
@@ -40,32 +40,49 @@
 
             .content h1{
                 text-align: center;
+                /* padding-left: 10; */
                 font-size: 65px;
                 text-transform: uppercase;
                 font-weight: 100;
-                color: aliceblue;
+                color: rgb(14, 75, 136);
                 padding-top: 15%;
                 margin-bottom: 10px;
             }
+
+
             
             
             </style>
+            <script src="./main.js"></script>
         </head>
+    
         <body>
             <div class = "background-wrap">
 
-                <video id = "video-bg-elem" preload="auto" autoplay = "true" loop = "loop" muted = "muted">
+                <!-- <img src="IMG_6759.JPG"> -->
+                <!-- backgroud-image: url("IMG_6759.JPG"); -->
+                <!-- <video id = "video-bg-elem" preload="auto" autoplay = "true" loop = "loop" muted = "muted">
                     <source src="Background_vid.mp4" type="Video/mp4">
                     Video not supported
-                </video>
+                </video> -->
+
+                <!-- <img id = "img-bg-elem">
+                    <source src="IMG_6759.JPG">
+                    Video not supported
+                </img> -->
+
+
             </div>
+
 
             <div class="content">
-                <h1> Duy Pham </h1>
-
+                <h1> Duy Pham </h1> 
             </div>
+
+            <!-- <button type="button" class="btn btn-secondary">Projects</button> -->
 
 
 
         </body>
+    
  </html>
