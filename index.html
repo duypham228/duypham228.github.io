@@ -1,88 +1,80 @@
  <!DOCTYPE html>
  <html>
+
         <head>
             <title>Duy Pham</title>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <style type = "text/css">
-                * {
-                    margin: 0;
-                    padding: 0;
-                }
-
-
+            <link rel="stylesheet" href="style.css">
             
-                .background-wrap {
-                    position: fixed;
-                    z-index: -1000;
-                    width: 100%;
-                    height: 100%;
-                    overflow: hidden;
-                    top: 0;
-                    left: 0;
-                    align-self: stretch;
-                }
-            #video-bg-elem {
-                position: absolute;
-                top: 0;
-                left: 0;
-                /* height: 3840; */
-                /* width: 2160; */
-                min-height: 0%;
-                min-width: 0%;
-            }
-            
-            .content {
-                position: absolute;
-                width: 100%;
-                min-height: 100%;
-                z-index: 1000%;
-            }
-
-            .content h1{
-                text-align: center;
-                /* padding-left: 10; */
-                font-size: 65px;
-                text-transform: uppercase;
-                font-weight: 100;
-                color: rgb(14, 75, 136);
-                padding-top: 15%;
-                margin-bottom: 10px;
-            }
-
-
-            
-            
-            </style>
             <script src="./main.js"></script>
         </head>
     
+
+
         <body>
-            <div class = "background-wrap">
-
-                <!-- <img src="IMG_6759.JPG"> -->
-                <!-- backgroud-image: url("IMG_6759.JPG"); -->
-                <!-- <video id = "video-bg-elem" preload="auto" autoplay = "true" loop = "loop" muted = "muted">
-                    <source src="Background_vid.mp4" type="Video/mp4">
-                    Video not supported
-                </video> -->
-
-                <!-- <img id = "img-bg-elem">
-                    <source src="IMG_6759.JPG">
-                    Video not supported
-                </img> -->
-
-
-            </div>
-
-
+               
             <div class="content">
-                <h1> Duy Pham </h1> 
-            </div>
+                <h1> Duy Pham </h1>
+                <img src="avatar.jpg">
+                <p>Welcome to my personal website. This is a page which I put my information, resume and projects. Take a look around and have fun.</p>
 
-            <!-- <button type="button" class="btn btn-secondary">Projects</button> -->
+                <p style="text-align:center;">
+                    <a class="btn btn-secondary" href="#Education" role="button">Education</a>
+                    <a class="btn btn-secondary" href="#Resume" role="button">Resume</a>
+                    <a class="btn btn-secondary" href="#Certificate" role="button">Certificate</a>
+                </p>
+                <div class=spacer></div>
+                <h2 id = "Education"> Education </h2>
+                <div class="row icon_container"  style="text-align: center;">
+
+                    <a href="#tamu">
+                        <img src="tamu_logo.jpg">
+                    </a>
+
+                    <a href="#lonestar">
+                        <img src="lonestar_logo.jpg">
+                    </a>
+
+                    <a href="#nth">
+                        <img src="nth_logo.jpeg">
+                    </a>
+                </div>
+
+                <div class=spacer></div>
+                <p id="tamu"> This is my information about Texas A&M University</p>
+
+                <div class=spacer></div>
+                <p id="lonestar"> This is my information about Lonestar Community College</p>
+
+                <div class=spacer></div>
+                <p id="nth"> This is my information about Nguyen Thuong Hien High School</p>
+
+
+
+
+                <div class=spacer></div>
+                <h3 id = "Resume"> Resume </h3>
+                <p style="text-align: center;">
+                    <embed src="Resume.pdf".pdf" type="application/pdf" width="75%" height="700px" />
+                </p>
+
+
+
+                <div class=spacer></div>
+                <h4 id = "Certificate"> Certificate </h4>
+                <p style="text-align: center;">
+                    <embed src="Nvidia.pdf" type="application/pdf" width="50%" height="450px" />
+                    <embed src="GitCertificate.pdf" type="application/pdf" width="50%" height="450px" />
+                </p>
+                
+
+
+
+            </div>
 
 
 
         </body>
     
+
  </html>
