@@ -29,7 +29,7 @@
 
 
 #Home{
-    width: 900px;
+    width: 950px;
     margin: 0 auto;
     color: white;
     padding-bottom: 30px;
@@ -41,14 +41,22 @@ header {
 }
 
 
+#Home img {
+    padding-bottom: 5%;
+}
 
+#Home p{
+    font-size: 22px;
+    text-align: justify;
+}
 
 .content h1{
     text-align: center;
     /* padding-left: 10; */
-    font-size: 50px;
+    font-size: 100px;
     font-weight: 100;
     padding-top: 10%;
+    padding-bottom: 5%;
     margin-bottom: 10px;
 }
 
@@ -85,7 +93,7 @@ header {
 
 .content img {
     display: block;
-    width: 150px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     /* padding-top: 15%; */
@@ -95,7 +103,7 @@ header {
 
 
 .content p{
-    text-align: center;
+    /* text-align: center; */
     /* padding-left: 10; */
     font-size: 20px;
     font-weight: 100;
@@ -104,7 +112,7 @@ header {
 }
 
 .spacer {
-    height: 500px;;
+    height: 200px;;
 }
       
 .row {
@@ -115,5 +123,20 @@ header {
 
 .school_container {
     justify-content: space-around;
+}
+
+.contact_container {
+    justify-content: space-around;
+}
+
+#Contact img{
+    display: block;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Contact h2{
+    padding-bottom: 20px;
 }
             
