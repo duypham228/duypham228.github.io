@@ -32,9 +32,28 @@
     width: 950px;
     margin: 0 auto;
     color: white;
+    padding-bottom: 50px;
+}
+
+#Education{
+    background-color: rgba(242,241,241,1);
     padding-bottom: 30px;
 }
 
+#Resume{
+    background-color: rgba(244,240,240,1);
+    padding-bottom: 30px;
+}
+
+#Certificate{
+    background-color: rgba(245,239,239,1);
+    padding-bottom: 30px;
+}
+
+#Contact{
+    background-color: rgba(246,237,237,1);
+    padding-bottom: 80px;
+}
 
 header {
     background-color: rgb(44, 43, 43);
@@ -108,7 +127,7 @@ header {
     font-size: 20px;
     font-weight: 100;
     padding-top: 1%;
-    /* margin-bottom: 10px; */
+    margin-bottom: 0;
 }
 
 .spacer {
