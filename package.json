@@ -1,0 +1,26 @@
+{
+  "name": "Duy Pham",
+  "version": "1.0.0",
+  "description": "Personal Website of Duy Pham",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "mapbox-gl": "^1.7.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
